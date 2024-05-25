@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "armorless",
+	"version": "${version}",
+	"name": "Armorless",
+	"description": "Take damage when wearing armor",
+	"authors": [
+		"nml"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "Apache-2.0",
+	"icon": "assets/armorless/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.nml.armorless.Armorless"
+		]
+	},
+	"mixins": [
+		"armorless.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20",
+		"java": ">=17"
+	}
+}
