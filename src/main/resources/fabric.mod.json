@@ -8,8 +8,8 @@
 		"nml"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://modrinth.com/mod/armorless",
+		"sources": "https://github.com/thenml/armorless"
 	},
 	"license": "Apache-2.0",
 	"icon": "assets/armorless/icon.png",
@@ -24,7 +24,7 @@
 	],
 	"depends": {
 		"fabricloader": ">=0.15.11",
-		"minecraft": "~1.20",
-		"java": ">=17"
+		"minecraft": "~1.21",
+		"java": ">=21"
 	}
 }
